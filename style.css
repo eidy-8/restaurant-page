@@ -1,31 +1,78 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 #content {
     display: grid;
-    grid-template-rows: 50px auto 50px;
+    grid-template-rows: 70px auto 70px;
     min-height: 100vh;
 }
 
 header {
     display: flex;
     align-items: center;
+    color: white;
+}
+
+img {
+    height: 50px;
+    width: 100px;
+    border-radius: 100px;
 }
 
 ul {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     list-style: none;
+    align-items: center;
 }
 
-main {
-    
+article {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100%;
+    font-family: myFont;
+    font-size: 150%;
+}
+
+.sushi-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; 
+    padding: 20px; 
+    border-radius: 10px;
+    background-color: rgb(250, 128, 114, 0.8);
+    border-radius: 50px 50px 50px 50px; 
+    border-style: solid;
+    width: 70%;
+}
+
+section {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(./externalFont/Chinese\ Takeaway.ttf)
 }
