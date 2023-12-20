@@ -1,1 +1,1 @@
-console.log("Working!");
+(()=>{"use strict";(()=>{const e=document.getElementById("content"),t=document.createElement("header");e.appendChild(t)})(),console.log("Working!")})();
