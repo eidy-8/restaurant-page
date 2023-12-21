@@ -58,6 +58,11 @@ article {
     width: 70%;
 }
 
+#food {
+    width: 400px;
+    height: 400px;
+}
+
 section {
     display: flex;
     margin: 10px;
