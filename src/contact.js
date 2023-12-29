@@ -7,6 +7,12 @@ const createContractPage = () => {
 
     const section = document.createElement("section");
     article.appendChild(section);
+
+    
+
+    const footer = document.createElement("footer");
+    footer.textContent = "Enrique Onaga";
+    content.appendChild(footer);
 }
 
 export default createContractPage;
