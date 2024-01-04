@@ -30,17 +30,14 @@ const createTabs = () => {
     ul.appendChild(li3);
 
     li1.addEventListener("click", () => {
-        alert("li1 working!");
         clearContent();
         createRestaurantHomePage();
     })
     li2.addEventListener("click", () => {
-        alert("li2 working!");
         clearContent();
         createMenuPage();
     })
     li3.addEventListener("click", () => {
-        alert("li3 working!");
         clearContent();
         createContractPage();
     })
